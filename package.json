@@ -31,7 +31,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "your-build-command",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
@@ -110,5 +110,8 @@
     "typescript": "^5.5.3",
     "vite": "^6.2.2",
     "vitest": "^3.1.4"
+  },
+  "build": {
+    "outDir": "./dist"
   }
 }
